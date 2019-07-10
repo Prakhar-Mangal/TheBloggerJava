@@ -1,0 +1,19 @@
+Guide for TheBlogger:
+
+#Database used MySQL --
+-->Create tables and write commands as:-
+
+1. create table users(uname varchar(30) PRIMARY KEY,ucon varchar(30),uemail varchar(30),upass varchar(30));
+
+2. create table question(qid int AUTO_INCREMENT PRIMARY KEY,que varchar(10000),uname varchar(30));
+
+3. create table answer(aid int,qid int,ans varchar(10000),uname varchar(30));
+
+#Frontend:-
+
+For this i use HTML, CSS, Javascript, Bootstrap(for responsive design).
+
+#Backend:-
+
+Servlets and JSP are used.
+
